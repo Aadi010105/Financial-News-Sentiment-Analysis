@@ -26,13 +26,8 @@ The goal is to extract sentiment signals from market news data to support financ
 
 nlp-financial-news-sentiment-analysis/
 │
-├── notebook.ipynb # Main Kaggle / Jupyter notebook
-├── data/ # (Optional) folder for raw / processed datasets
-│ ├── financial_news.csv # Example news dataset
-│ └── labels.csv # Corresponding sentiment labels
-├── models/ # Saved trained models (optional)
-│ └── sentiment_model.pkl
-├── requirements.txt # (Optional) dependencies
+├── all-data.csv # Example news dataset
+└── nlp-financial-news-sentiment-analysis.ipynb
 └── README.md # Project description (this file)
 
 ```

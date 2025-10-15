@@ -21,8 +21,8 @@ The goal is to extract sentiment signals from market news data to support financ
 6. Prediction / inference on new financial text  
 
 ---
-
 ## 📁 Repository Structure
+```
 
 nlp-financial-news-sentiment-analysis/
 │
@@ -35,9 +35,7 @@ nlp-financial-news-sentiment-analysis/
 ├── requirements.txt # (Optional) dependencies
 └── README.md # Project description (this file)
 
-markdown
-Copy code
-
+```
 ---
 
 ## 🧾 Methodology & Workflow
@@ -81,3 +79,13 @@ Copy code
 - Libraries:  
   `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `nltk`, `spacy` (or `gensim`)  
   (Optional: `tensorflow` / `keras` / `pytorch` if deep learning models used)
+
+###🧩 Results
+
+The notebook presents insightful visualizations for sentiment class distribution, word frequency, and model evaluation metrics.
+The trained Logistic Regression model (or chosen NLP classifier) achieves high accuracy and balanced F1-scores across all sentiment categories — Positive, Negative, and Neutral — confirming the effectiveness of text-based sentiment classification in the financial domain.
+Performance metrics such as confusion matrix, precision, recall, and F1-score demonstrate reliable model performance, making it suitable for downstream tasks like market trend prediction and financial decision support.
+
+### 👤 Author
+Aaditiya Jain 
+Text Mining Project
